@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>accuiel</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Mes amis</ion-card-title>
+      <ion-card-subtitle>Listes des amis</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Cette listes contient mes amis 
+    </ion-card-content>
+  
+    <ion-button fill="clear">Ajouter</ion-button>
+    <ion-button fill="clear" (click)="voirAmis()">Voir</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Mes enimis</ion-card-title>
+      <ion-card-subtitle>Listes des enimis</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      cette listes contient mes enimis
+    </ion-card-content>
+  
+    <ion-button fill="clear">Ajouter</ion-button>
+    <ion-button fill="clear" (click)="voirEnimis()">Voir</ion-button>
+  </ion-card>
+</ion-content>
